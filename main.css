@@ -1,0 +1,190 @@
+body {
+	overflow: auto;
+	background-color: white;
+	color: black;
+}
+
+div.page {
+	vertical-align: middle;
+	border: 0px solid red;
+}
+
+.full {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.hidden {
+	display: none;
+}
+
+button {
+	font-size: 18px;
+	width: 100%;
+	height: 40px;
+}
+
+h2 {
+	text-align: center;
+}
+
+table {
+	margin: 0;
+	padding: 0
+}
+
+.m {
+	text-align: center;
+}
+
+#nav_header {
+	
+}
+
+#nav_footer {
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	top: 75px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#nav_logo {
+	margin: 5px;
+	display: inline-block;
+}
+
+#img_logo {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0px;
+}
+
+.nav_block {
+	display: inline-block;
+	padding: 5px;
+	border: 0px solid black;
+}
+
+.nav_item {
+	display: inline-block;
+	padding: 10px;
+	margin: 5px;
+	font-size: 18px;
+	background-color: #dddddd;
+}
+
+#home_slide {
+	width: 400%;
+	height: 200px;
+	background-color: darkblue;
+}
+
+.slide {
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	display: inline-block;
+	background-color: darkblue;
+	display: inline-block;
+	
+	text-align: center;
+	vertical-align: middle;
+	color: silver;
+}
+
+.intro {
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px;
+}
+
+.block_title {
+	font-size: 20px;
+}
+
+.intro_more {
+	background-color: #dddddd;
+	padding: 10px;
+}
+
+.recmd_item {
+	margin: 10px;
+	padding: 20px;
+	background-color: #eeeeee;
+	text-align: right;
+	border-right: 10px solid #cccccc;
+}
+
+img.icon {
+	vertical-align: middle;
+}
+
+#home_recmd {
+	padding: 10px;
+}
+
+a {
+  color: black;
+  background-color: #dddddd;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: red;
+  text-decoration: none;
+}
+a.active {
+  color: white;
+  background-color: black;
+}
+
+.subnav {
+	width: 100%;
+	height: 128px;
+	border: 1px solid silver;
+}
+
+#plugin_filter {
+	text-align: center;
+}
+
+#plugin_list {
+	margin: 0px;
+	padding: 10px;
+	vertical-align: top;
+}
+
+.plugin_item {
+	border: 1px solid #dddddd;
+	padding: 5px;
+	margin: 5px;
+}
+
+.price {
+	font-size: 14px;
+	padding: 5px;
+	background-color: orange;
+	color: white;
+}
+
+.buy_now {
+	padding: 10px;
+	background-color: green;
+	color: white;
+}
+
+.plugin_links {
+	position: absolute;
+	right: 20px;
+}
+
+.tiny_logo {
+	width: 32px;
+	height: 32px;
+}
+
