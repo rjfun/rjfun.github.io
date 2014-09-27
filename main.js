@@ -15,7 +15,13 @@ function list_plugin( div, products, cat, platform ) {
 		if(typeof cat === 'string' && cat !== "all" && cat !== product.cat) continue;
 		//if(typeof platform === 'string' && plugins[platform] !== true) continue;
 		html += "<div class='plugin_item'>";
-		html += "<h3 class='block_title'>" + product.name + " <span class='price'>" + ((product.price > 0) ? ("$" + product.price) : "FREE") + "</span></h3>";
+		html += "<h3 class='block_title'>" + product.name + " ";
+		if(product.price > 0) {
+			html += "<span class='price'>$" + product.price + "</span>";
+		} else {
+			html += "<span class='free'>FREE</span>";
+		}
+		html += "</h3>";
 		html += "<p class=''>" + product.intro + " <a target='_blank' href='" + product.github_url + "'>&nbsp; read more ... &nbsp;</a></p>";
 		if(product.price > 0) {
 			html += "<div class='plugin_links'><a class='buy_now' target='_blank' href='" + product.paypal_url + "'>Buy Now</a></div>";

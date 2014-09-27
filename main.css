@@ -172,6 +172,13 @@ a.active {
 	color: white;
 }
 
+.free {
+	font-size: 14px;
+	padding: 5px;
+	background-color: gray;
+	color: white;
+}
+
 .buy_now {
 	padding: 10px;
 	background-color: green;
