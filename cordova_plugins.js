@@ -2,7 +2,7 @@ var cordova_plugins = {
 		'com.google.cordova.admob' : {
 		onsale : true,
 		cat : 'ad',
-		name : 'AdMobPluginPro',
+		name : 'AdMob PluginPro',
 		intro : 'The best Plugin for Google AdMob, single line javascript code to display Banner and Interstitial. Any size, any position! Latest SDK for iOS and Android with Google Play Services. Compatible with Intel XDK and IBM worklight.',
 		ios : true,
 		android : true,
@@ -11,17 +11,17 @@ var cordova_plugins = {
 		github_url : 'https://github.com/floatinghotpot/cordova-admob-pro',
 		paypal_url : 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NRKTFZ88Q9KTW'
 	},
-	'com.rjfun.cordova.plugin.admob' : {
+	'com.rjfun.cordova.mobfox' : {
 		onsale : true,
 		cat : 'ad',
-		name : 'AdMob Plugin',
-		intro : 'The most popular AdMob Plugin, Banner and Interstitial.',
+		name : 'MobFox PluginPro',
+		intro : 'Cordova plugin for MobFox, support Banner, Interstitial and Video Ad. Support many Ad networks with server-side integration',
 		ios : true,
 		android : true,
-		win : true,
+		win : false,
 		price : 0,
-		github_url : 'https://github.com/floatinghotpot/cordova-plugin-admob',
-		paypal_url : 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NRKTFZ88Q9KTW'
+		github_url : 'https://github.com/floatinghotpot/cordova-mobfox-pro',
+		paypal_url : 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HJCR6JFWTNNFW'
 	},
 	'com.rjfun.cordova.plugin.flurry' : {
 		onsale : true,
@@ -31,7 +31,7 @@ var cordova_plugins = {
 		ios : true,
 		android : true,
 		win : false,
-		price : 14.99,
+		price : 0,
 		github_url : 'https://github.com/floatinghotpot/cordova-plugin-flurry',
 		paypal_url : 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NRKTFZ88Q9KTW'
 	},
