@@ -19,7 +19,7 @@ var cordova_plugins = {
 		ios : true,
 		android : true,
 		win : false,
-		price : 0,
+		price : 24.99,
 		github_url : 'https://github.com/floatinghotpot/cordova-mobfox-pro',
 		paypal_url : 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HJCR6JFWTNNFW'
 	},
