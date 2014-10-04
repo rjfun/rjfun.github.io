@@ -183,6 +183,7 @@ a.active {
 	padding: 10px;
 	background-color: green;
 	color: white;
+	border-radius: 12px;
 }
 
 .plugin_links {

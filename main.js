@@ -22,7 +22,14 @@ function list_plugin( div, products, cat, platform ) {
 			html += "<span class='free'>FREE</span>";
 		}
 		html += "</h3>";
-		html += "<p class=''>" + product.intro + " <a target='_blank' href='" + product.github_url + "'>&nbsp; read more ... &nbsp;</a></p>";
+		if(!! product.intro) {
+			html += "<p class=''>" + product.intro;
+			if(!! product.signup_url) {
+				html += " <a href='"+ product.signup_url +"'>&nbsp; Sign Up ...&nbsp;</a>";
+			}
+			html += "</p>";
+		}
+		html += "<p class=''>" + product.desc + " <a target='_blank' href='" + product.github_url + "'>&nbsp; Read More ... &nbsp;</a></p>";
 		if(product.price > 0) {
 			html += "<div class='plugin_links'><a class='buy_now' target='_blank' href='" + product.paypal_url + "'>Buy Now</a></div>";
 		} else {
@@ -34,6 +41,9 @@ function list_plugin( div, products, cat, platform ) {
 			}
 		}
 		html += "</div>";
+	}
+	if(html.length == 0) {
+		html = "<p>Coming soon.</p>";
 	}
 	$("div#" + div).html( html );
 }

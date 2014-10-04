@@ -1,195 +1,245 @@
 var cordova_plugins = {
-		'com.google.cordova.admob' : {
+	"com.google.cordova.admob" : {
+		intro : "One of the most impressive advertising platforms currently available, AdMob's major claim to fame is its massive base of advertisers. It is owned by Google and provides an integrated software development kit to connect over popular mobile platforms including Android, iOS and Windows Phone. AdMob has a high CPC to help you get the best ROI.",
+		signup_url : "http://www.admob.com/",
 		onsale : true,
-		cat : 'ad',
-		name : 'AdMob PluginPro',
-		intro : 'The best Plugin for Google AdMob, single line javascript code to display Banner and Interstitial. Any size, any position! Latest SDK for iOS and Android with Google Play Services. Compatible with Intel XDK and IBM worklight.',
+		cat : "ad",
+		name : "AdMob PluginPro",
+		desc : "The best plugin for Google AdMob, single line javascript code to display Banner and Interstitial. Any size, any position! Latest SDK for iOS and Android with Google Play Services. Compatible with Intel XDK and IBM worklight.",
 		ios : true,
 		android : true,
 		win : false,
-		price : 14.99,
-		github_url : 'https://github.com/floatinghotpot/cordova-admob-pro',
-		paypal_url : 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NRKTFZ88Q9KTW'
+		price : 15.00,
+		github_url : "https://github.com/floatinghotpot/cordova-admob-pro",
+		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NRKTFZ88Q9KTW"
 	},
-	'com.rjfun.cordova.mobfox' : {
+	"com.rjfun.cordova.plugin.iad" : {
+		intro : "Apple's iAd service. With iAd, you can get your message out to the millions of people using iPhone and iPad.",
 		onsale : true,
-		cat : 'ad',
-		name : 'MobFox PluginPro',
-		intro : 'Cordova plugin for MobFox, support Banner, Interstitial and Video Ad. Support many Ad networks with server-side integration',
+		cat : "ad",
+		name : "iAd Plugin",
+		desc : "The No.1 Plugin for Apple iAd in PhoneGap Build.",
+		ios : true,
+		android : false,
+		win : false,
+		price : 15.00,
+		github_url : "https://github.com/floatinghotpot/cordova-plugin-iad",
+		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QHW9HFB2L8GUE"
+	},
+	"com.rjfun.cordova.mobfox" : {
+		intro : "Looking to gain absolute control over the ads shown in your mobile app? MobFox supports more than 10,000 publishers. It features an open-source software development kit, dynamic floor pricing and real time bidding through more than 30 integrated ad networks.",
+		signup_url : "http://www.mobfox.com/",
+		onsale : true,
+		cat : "ad",
+		name : "MobFox PluginPro",
+		desc : "Using this cordova plugin for MobFox, you can easily display Banner, Interstitial and Video Ad with single line of javascript code.",
 		ios : true,
 		android : true,
 		win : false,
-		price : 24.99,
-		github_url : 'https://github.com/floatinghotpot/cordova-mobfox-pro',
-		paypal_url : 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HJCR6JFWTNNFW'
+		price : 20.00,
+		github_url : "https://github.com/floatinghotpot/cordova-mobfox-pro",
+		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HJCR6JFWTNNFW"
 	},
-	'com.rjfun.cordova.plugin.flurry' : {
+	"com.rjfun.cordova.plugin.flurry" : {
+		intro : "The team at Flurry has amassed a treasure trove of user data from more than 700 million smartphones and other mobile devices. Use it for interstitial, takeover and video ads on iOS and Android.",
+		signup_url : "http://www.flurry.com/",
 		onsale : true,
-		cat : 'ad',
-		name : 'FlurryAds Plugin',
-		intro : 'Plugin for Yahoo Flurry Ads, Banner, Interstitial and Video.',
+		cat : "ad",
+		name : "FlurryAds Plugin",
+		desc : "Plugin for Yahoo Flurry Ads, Banner, Interstitial and Video.",
 		ios : true,
 		android : true,
 		win : false,
-		price : 0,
-		github_url : 'https://github.com/floatinghotpot/cordova-plugin-flurry',
-		paypal_url : 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NRKTFZ88Q9KTW'
+		price : 20.00,
+		github_url : "https://github.com/floatinghotpot/cordova-plugin-flurry",
+		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=C654HGZVC43T4"
 	},
-	'com.rjfun.cordova.plugin.iad' : {
+	"com.rjfun.cordova.mmedia" : {
+		intro : "Millennial Media is known for being the first mobile ad network that went to the next level through an initial public offering. This platform provides a wealth of research and intelligence, and you can use it to quickly set up a campaign for advertisers to compete for your business.",
+		signup_url : "http://www.millennialmedia.com/",
+		onsale : false,
+		cat : "ad",
+		name : "Millennial Media Plugin",
+		desc : "Using this cordova plugin for Millennial Media, you can easily display Banner, Interstitial and Video Ad with single line of javascript code.",
+		ios : true,
+		android : true,
+		win : false,
+		price : 20.00,
+		github_url : "https://github.com/floatinghotpot/cordova-plugin-mmedia",
+		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XJYYFV9XFF9U4"
+	},
+	"com.rjfun.cordova.tapjoy" : {
+		intro : "If you have developed a mobile game, you'll want to consider Tapjoy because of its expertise with in-app purchases. It enables your users to earn virtual currency that they can cash in for content in more than 20,000 games to date.",
+		signup_url : "http://www.tapjoy.com/",
+		onsale : false,
+		cat : "ad",
+		name : "TapJoy Plugin",
+		desc : "Using this cordova plugin for TapJoy, you can easily display Banner, Interstitial and Video Ad with single line of javascript code.",
+		ios : true,
+		android : true,
+		win : false,
+		price : 20.00,
+		github_url : "https://github.com/floatinghotpot/cordova-plugin-tapjoy",
+		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WRT588EJ4BHJE"
+	},
+	"com.rjfun.cordova.vungle" : {
+		intro : "Not all ads are boring to users. Think of all the people who pay attention to the amazing ads that air during the Super Bowl, for example. Vungle is devoted to helping you monetize your app with interesting and engaging video ads that your end users will enjoy viewing.",
+		signup_url : "http://www.vungle.com/",
+		onsale : false,
+		cat : "ad",
+		name : "Vungle Plugin",
+		desc : "Using this cordova plugin for Vungle, you can easily display Video Ad with single line of javascript code.",
+		ios : true,
+		android : true,
+		win : false,
+		price : 20.00,
+		github_url : "https://github.com/floatinghotpot/cordova-plugin-vungle",
+		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HDGF755KQQWRY"
+	},
+	"com.rjfun.cordova.plugin.appleiap" : {
 		onsale : true,
-		cat : 'ad',
-		name : 'iAd Plugin',
-		intro : 'The No. 1 Plugin for Apple iAd in PhoneGap Build (iOS only)',
+		cat : "iap",
+		name : "Apple IAP Plugin",
+		desc : "Plugin for Apple In-App Purchase support (iOS only)",
 		ios : true,
 		android : false,
 		win : false,
 		price : 0,
-		github_url : 'https://github.com/floatinghotpot/cordova-plugin-iad',
-		paypal_url : 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NRKTFZ88Q9KTW'
+		github_url : "https://github.com/floatinghotpot/cordova-plugin-appleiap",
+		paypal_url : ""
 	},
-	'com.rjfun.cordova.plugin.appleiap' : {
+	"com.rjfun.cordova.plugin.paypalmpl" : {
 		onsale : true,
-		cat : 'iap',
-		name : 'Apple IAP Plugin',
-		intro : 'Plugin for Apple In-App Purchase support (iOS only)',
-		ios : true,
-		android : false,
-		win : false,
-		price : 29.99,
-		github_url : 'https://github.com/floatinghotpot/cordova-plugin-appleiap',
-		paypal_url : 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NRKTFZ88Q9KTW'
-	},
-	'com.rjfun.cordova.plugin.paypalmpl' : {
-		onsale : true,
-		cat : 'iap',
-		name : 'PayPal MPL Plugin',
-		intro : 'Add PayPal support with MPL SDK (Mobile Payment Library, not new SDK) to your cordova apps or games',
+		cat : "iap",
+		name : "PayPal MPL Plugin",
+		desc : "Add PayPal support with MPL SDK (Mobile Payment Library, not new SDK) to your cordova apps or games",
 		ios : true,
 		android : true,
 		win : false,
-		price : 29.99,
-		github_url : 'https://github.com/floatinghotpot/cordova-plugin-paypalmpl',
-		paypal_url : 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NRKTFZ88Q9KTW'
+		price : 0,
+		github_url : "https://github.com/floatinghotpot/cordova-plugin-paypalmpl",
+		paypal_url : ""
 	},
-	'com.rjfun.cordova.plugin.lowlatencyaudio' : {
+	"com.rjfun.cordova.plugin.lowlatencyaudio" : {
 		onsale : true,
-		cat : 'media',
-		name : 'LowLatencyAudio Plugin',
-		intro : 'Plugin to support Low Latency and Polyphonic Audio Playback on Android and iOS, must have for mobile apps/games, as HTML5 audio in mobile browsers is really poor. Also implemented same interface for HTML5 audio, useful when test in PC browser.',
+		cat : "media",
+		name : "LowLatencyAudio Plugin",
+		desc : "Plugin to support Low Latency and Polyphonic Audio Playback on Android and iOS, must have for mobile apps/games, as HTML5 audio in mobile browsers is really poor. Also implemented same interface for HTML5 audio, useful when test in PC browser.",
 		ios : true,
 		android : true,
 		win : false,
-		price : 19.99,
-		github_url : 'https://github.com/floatinghotpot/cordova-plugin-lowlatencyaudio',
-		paypal_url : 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NRKTFZ88Q9KTW'
+		price : 0,
+		github_url : "https://github.com/floatinghotpot/cordova-plugin-lowlatencyaudio",
+		paypal_url : ""
 	},
-	'com.rjfun.cordova.plugin.sms' : {
-		onsale : true,
-		cat : 'system',
-		name : 'SMS Plugin',
-		intro : 'Cordova plugin to send and manage SMS messages.',
+	"com.rjfun.cordova.plugin.sms" : {
+		onsale : false,
+		cat : "system",
+		name : "SMS Plugin",
+		desc : "Cordova plugin to send and manage SMS messages.",
 		ios : false,
 		android : true,
 		win : false,
-		price : 29.99,
-		github_url : 'https://github.com/floatinghotpot/cordova-plugin-sms',
-		paypal_url : 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NRKTFZ88Q9KTW'
+		price : 0,
+		github_url : "https://github.com/floatinghotpot/cordova-plugin-sms",
+		paypal_url : ""
 	},
-	'com.rjfun.cordova.plugin.bluetooth' : {
+	"com.rjfun.cordova.plugin.bluetooth" : {
 		onsale : false,
-		cat : 'system',
-		name : 'Bluetooth Plugin',
-		intro : 'Cordova plugin to manage bluetooth devices and connections.',
+		cat : "system",
+		name : "Bluetooth Plugin",
+		desc : "Cordova plugin to manage bluetooth devices and connections.",
 		ios : false,
 		android : true,
 		win : false,
-		price : 29.99,
-		github_url : 'https://github.com/floatinghotpot/cordova-plugin-bluetooth',
-		paypal_url : 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NRKTFZ88Q9KTW'
+		price : 0,
+		github_url : "https://github.com/floatinghotpot/cordova-plugin-bluetooth",
+		paypal_url : ""
 	},
-	'com.rjfun.cordova.plugin.toast' : {
+	"com.rjfun.cordova.plugin.toast" : {
 		onsale : false,
-		cat : 'system',
-		name : 'Toast Plugin',
-		intro : 'Cordova plugin to show popup message with toast.',
+		cat : "system",
+		name : "Toast Plugin",
+		desc : "Cordova plugin to show popup message with toast.",
 		ios : false,
 		android : true,
 		win : false,
-		price : 9.99,
-		github_url : 'https://github.com/floatinghotpot/cordova-plugin-toast',
-		paypal_url : 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NRKTFZ88Q9KTW'
+		price : 0,
+		github_url : "https://github.com/floatinghotpot/cordova-plugin-toast",
+		paypal_url : ""
 	},
-	'com.rjfun.cordova.plugin.facebook' : {
+	"com.rjfun.cordova.plugin.facebook" : {
 		onsale : false,
-		cat : 'social',
-		name : 'Facebook Plugin',
-		intro : 'Cordova plugin to login and post to facebook.',
+		cat : "social",
+		name : "Facebook Plugin",
+		desc : "Cordova plugin to login and post to facebook.",
 		ios : false,
 		android : true,
 		win : false,
-		price : 19.99,
-		github_url : 'https://github.com/floatinghotpot/cordova-plugin-facebook',
-		paypal_url : 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NRKTFZ88Q9KTW'
+		price : 0,
+		github_url : "https://github.com/floatinghotpot/cordova-plugin-facebook",
+		paypal_url : ""
 	},
-	'com.rjfun.cordova.plugin.twitter' : {
+	"com.rjfun.cordova.plugin.twitter" : {
 		onsale : false,
-		cat : 'social',
-		name : 'Twitter Plugin',
-		intro : 'Cordova plugin to login and post to twitter.',
+		cat : "social",
+		name : "Twitter Plugin",
+		desc : "Cordova plugin to login and post to twitter.",
 		ios : false,
 		android : true,
 		win : false,
-		price : 19.99,
-		github_url : 'https://github.com/floatinghotpot/cordova-plugin-facebook',
-		paypal_url : 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NRKTFZ88Q9KTW'
+		price : 0,
+		github_url : "https://github.com/floatinghotpot/cordova-plugin-facebook",
+		paypal_url : ""
 	},
-	'com.rjfun.cordova.plugin.socialsharing' : {
+	"com.rjfun.cordova.plugin.socialsharing" : {
 		onsale : false,
-		cat : 'social',
-		name : 'SocialSharing Plugin',
-		intro : 'Cordova plugin to sharing picture, text and link to social media.',
+		cat : "social",
+		name : "SocialSharing Plugin",
+		desc : "Cordova plugin to sharing picture, text and link to social media.",
 		ios : true,
 		android : true,
 		win : true,
-		price : 29.99,
-		github_url : 'https://github.com/floatinghotpot/cordova-plugin-socialsharing',
-		paypal_url : 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NRKTFZ88Q9KTW'
+		price : 0,
+		github_url : "https://github.com/floatinghotpot/cordova-plugin-socialsharing",
+		paypal_url : "0"
 	},
-	'com.rjfun.cordova.plugin.wifiadmin' : {
+	"com.rjfun.cordova.plugin.wifiadmin" : {
 		onsale : true,
-		cat : 'network',
-		name : 'Wifi Admin Plugin',
-		intro : 'Cordova plugin to search and manage WiFi connections.',
+		cat : "network",
+		name : "Wifi Admin Plugin",
+		desc : "Cordova plugin to search and manage WiFi connections.",
 		ios : false,
 		android : true,
 		win : false,
-		price : 29.99,
-		github_url : 'https://github.com/floatinghotpot/cordova-plugin-wifi',
-		paypal_url : 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NRKTFZ88Q9KTW'
+		price : 0,
+		github_url : "https://github.com/floatinghotpot/cordova-plugin-wifi",
+		paypal_url : ""
 	},
-	'com.rjfun.cordova.httpd' : {
+	"com.rjfun.cordova.httpd" : {
+		intro : "Wanna develop app to enable accessing files in smartphone from remote browser? Try CorHttpd.",
 		onsale : true,
-		cat : 'network',
-		name : 'CorHttpd Plugin',
-		intro : 'CorHttpd is an plugin to embed a web server into Cordova, to access local file or web content with HTTP protocol. It is used by the famous Meteor project.',
+		cat : "network",
+		name : "CorHttpd Plugin",
+		desc : "CorHttpd is an plugin to embed a web server into Cordova, to access local file or web content with HTTP protocol. It is used by the famous Meteor project.",
 		ios : true,
 		android : true,
 		win : false,
-		price : 29.99,
-		github_url : 'https://github.com/floatinghotpot/cordova-httpd',
-		paypal_url : 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NRKTFZ88Q9KTW'
+		price : 0,
+		github_url : "https://github.com/floatinghotpot/cordova-httpd",
+		paypal_url : ""
 	},
-	'com.rjfun.cordova.plugin.iflyspeech' : {
+	"com.rjfun.cordova.plugin.iflyspeech" : {
 		onsale : true,
-		cat : 'media',
-		name : 'iFlySpeech Plugin',
-		intro : 'Cordova plugin to support mobile speech recognizer and synthesizer with iFlyTek voice cloud service.',
+		cat : "media",
+		name : "iFlySpeech Plugin",
+		desc : "Cordova plugin to support mobile speech recognizer and synthesizer with iFlyTek voice cloud service.",
 		ios : true,
 		android : true,
 		win : false,
-		price : 49.99,
-		github_url : 'https://github.com/floatinghotpot/cordova-plugin-iflyspeech',
-		paypal_url : 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NRKTFZ88Q9KTW'
+		price : 0,
+		github_url : "https://github.com/floatinghotpot/cordova-plugin-iflyspeech",
+		paypal_url : ""
 	}
 };
 
