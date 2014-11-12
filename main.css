@@ -160,6 +160,7 @@ a.active {
 
 .plugin_item {
 	border: 1px solid #dddddd;
+    background-color: #eeeeee;
 	padding: 5px;
 	margin: 5px;
 }
