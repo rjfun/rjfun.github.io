@@ -2,6 +2,7 @@ var cordova_plugins = {
 	"com.google.cordova.admob" : {
 		intro : "One of the most impressive advertising platforms currently available, AdMob's major claim to fame is its massive base of advertisers. It is owned by Google and provides an integrated software development kit to connect over popular mobile platforms including Android, iOS and Windows Phone. AdMob has a high CPC to help you get the best ROI.",
 		signup_url : "http://www.admob.com/",
+		screen : "screen/ipad_interstitial.jpg",
 		onsale : true,
 		cat : "ad",
 		name : "AdMob PluginPro",
@@ -9,7 +10,7 @@ var cordova_plugins = {
 		ios : true,
 		android : true,
 		win : false,
-		price : 15.00,
+		price : 20.00,
 		github_url : "https://github.com/floatinghotpot/cordova-admob-pro",
 		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NRKTFZ88Q9KTW"
 	},
@@ -27,18 +28,46 @@ var cordova_plugins = {
 		github_url : "https://github.com/floatinghotpot/cordova-plugin-mmedia",
 		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XJYYFV9XFF9U4"
 	},
-	"com.rjfun.cordova.plugin.iad" : {
+	"com.rjfun.cordova.iad" : {
 		intro : "Apple's iAd service. With iAd, you can get your message out to the millions of people using iPhone and iPad.",
 		onsale : true,
 		cat : "ad",
-		name : "iAd Plugin",
+		name : "iAd PluginPro",
 		desc : "The No.1 Plugin for Apple iAd in PhoneGap Build.",
 		ios : true,
 		android : false,
 		win : false,
-		price : 15.00,
+		price : 20.00,
 		github_url : "https://github.com/floatinghotpot/cordova-plugin-iad",
 		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QHW9HFB2L8GUE"
+	},
+	"com.rjfun.cordova.flurryads" : {
+		intro : "The team at Flurry has amassed a treasure trove of user data from more than 700 million smartphones and other mobile devices. Use it for interstitial, takeover and video ads on iOS and Android.",
+		signup_url : "http://www.flurry.com/",
+		onsale : true,
+		cat : "ad",
+		name : "FlurryAds PluginPro",
+		desc : "Plugin for Yahoo Flurry Ads, Banner, Interstitial and Video.",
+		ios : true,
+		android : true,
+		win : false,
+		price : 20.00,
+		github_url : "https://github.com/floatinghotpot/cordova-plugin-flurry",
+		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=C654HGZVC43T4"
+	},
+	"com.rjfun.cordova.facebookads" : {
+		intro : "Extend the same rich targeting that exists on Facebook to your app. Over 1.5 million advertisers, Get access to Facebook advertisers looking to find their audience in your app. Choose from banner, interstitial and customizable native units.",
+		signup_url : "https://developers.facebook.com/",
+		onsale : true,
+		cat : "ad",
+		name : "FacebookAds PluginPro",
+		desc : "Plugin for Facebook Audience Network Ads, Banner, Interstitial and Native Ad.",
+		ios : true,
+		android : true,
+		win : false,
+		price : 20.00,
+		github_url : "https://github.com/floatinghotpot/cordova-plugin-facebookads",
+		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H3EYC4JZNSRRS"
 	},
 	"com.rjfun.cordova.mobfox" : {
 		intro : "Looking to gain absolute control over the ads shown in your mobile app? MobFox supports more than 10,000 publishers. It features an open-source software development kit, dynamic floor pricing and real time bidding through more than 30 integrated ad networks.",
@@ -51,22 +80,22 @@ var cordova_plugins = {
 		android : true,
 		win : false,
 		price : 20.00,
-		github_url : "https://github.com/floatinghotpot/cordova-plugin-mobfox",
+		github_url : "https://github.com/floatinghotpot/cordova-mobfox-pro",
 		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HJCR6JFWTNNFW"
 	},
-	"com.rjfun.cordova.plugin.flurry" : {
-		intro : "The team at Flurry has amassed a treasure trove of user data from more than 700 million smartphones and other mobile devices. Use it for interstitial, takeover and video ads on iOS and Android.",
-		signup_url : "http://www.flurry.com/",
+	"com.rjfun.cordova.mopub" : {
+		intro : "This mobile ad exchange company has momentum: Within 18 months, and with just 65 employees, it has hit a $100 million revenue run rate. It capitalized on the rise of real-time bidding, offering a transparent exchange.",
+		signup_url : "http://www.mopub.com/",
 		onsale : true,
 		cat : "ad",
-		name : "FlurryAds Plugin",
-		desc : "Plugin for Yahoo Flurry Ads, Banner, Interstitial and Video.",
+		name : "MoPub PluginPro",
+		desc : "Using this cordova plugin for MoPub, you can easily display Banner, Interstitial and Video Ad with single line of javascript code.",
 		ios : true,
 		android : true,
 		win : false,
 		price : 20.00,
-		github_url : "https://github.com/floatinghotpot/cordova-plugin-flurry",
-		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=C654HGZVC43T4"
+		github_url : "https://github.com/floatinghotpot/cordova-plugin-mopub",
+		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UQE6P4NG6NKYS"
 	},
 	"com.rjfun.cordova.vungle" : {
 		intro : "Not all ads are boring to users. Think of all the people who pay attention to the amazing ads that air during the Super Bowl, for example. Vungle is devoted to helping you monetize your app with interesting and engaging video ads that your end users will enjoy viewing.",

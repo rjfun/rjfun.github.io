@@ -25,7 +25,7 @@ function list_plugin( div, products, cat, platform ) {
 		if(!! product.intro) {
 			html += "<p class=''>" + product.intro;
 			if(!! product.signup_url) {
-				html += " <a href='"+ product.signup_url +"'>&nbsp; Sign Up ...&nbsp;</a>";
+				html += " <a href='"+ product.signup_url +"'>&nbsp; Official Site ...&nbsp;</a>";
 			}
 			html += "</p>";
 		}
