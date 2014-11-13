@@ -22,6 +22,11 @@ function list_plugin( div, products, cat, platform ) {
 			html += "<span class='free'>FREE</span>";
 		}
 		html += "</h3>";
+		if(product.price > 0) {
+			html += "<div class='plugin_links'><a class='buy_now' target='_blank' href='" + product.paypal_url + "'>Buy Now</a></div>";
+		} else {
+			html += "<div class='plugin_links'><a class='buy_now' target='_blank' href='" + product.github_url + "'>Download</a></div>";
+		}
 		if(false && product.intro) {
 			html += "<p class=''>";
 			html += product.intro;
@@ -30,17 +35,12 @@ function list_plugin( div, products, cat, platform ) {
 		}
 		html += "<p class=''>";
 		if(product.logo) html += "<img src='" + product.logo + "' class='logo'/>"
-		html += product.desc + " <a target='_blank' href='" + product.github_url + "'>&nbsp; Read More ... &nbsp;</a></p>";
-		if(product.price > 0) {
-			html += "<div class='plugin_links'><a class='buy_now' target='_blank' href='" + product.paypal_url + "'>Buy Now</a></div>";
-		} else {
-			html += "<div class='plugin_links'><a class='buy_now' target='_blank' href='" + product.github_url + "'>Download</a></div>";
-		}
 		for(var j in platforms_img) {
 			if(product[j] === true) {
 				html += " <img src='" + platforms_img[j] + "' class='tiny_logo'/> ";
 			}
 		}
+		html += "<br/>" + product.desc + " <a target='_blank' href='" + product.github_url + "'>&nbsp; Read More ... &nbsp;</a></p>";
 		html += "</div>";
 	}
 	if(html.length == 0) {

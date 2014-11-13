@@ -14,21 +14,6 @@ var cordova_plugins = {
 		github_url : "https://github.com/floatinghotpot/cordova-admob-pro",
 		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NRKTFZ88Q9KTW"
 	},
-	"com.rjfun.cordova.mmedia" : {
-		intro : "Millennial Media is known for being the first mobile ad network that went to the next level through an initial public offering. This platform provides a wealth of research and intelligence, and you can use it to quickly set up a campaign for advertisers to compete for your business.",
-		signup_url : "http://www.mmedia.com/",
-		logo : "img/logo_mmedia.jpg",
-		onsale : true,
-		cat : "ad",
-		name : "mMedia (Millennial Media) PluginPro",
-		desc : "Using this cordova plugin for mMedia (Millennial Media), you can easily display Banner and full screen Video Ad with single line of javascript code.",
-		ios : true,
-		android : true,
-		win : false,
-		price : 20.00,
-		github_url : "https://github.com/floatinghotpot/cordova-plugin-mmedia",
-		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XJYYFV9XFF9U4"
-	},
 	"com.rjfun.cordova.iad" : {
 		intro : "Apple's iAd service. With iAd, you can get your message out to the millions of people using iPhone and iPad.",
 		logo : "img/logo_iad.jpg",
@@ -72,6 +57,21 @@ var cordova_plugins = {
 		price : 20.00,
 		github_url : "https://github.com/floatinghotpot/cordova-plugin-facebookads",
 		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H3EYC4JZNSRRS"
+	},
+	"com.rjfun.cordova.mmedia" : {
+		intro : "Millennial Media is known for being the first mobile ad network that went to the next level through an initial public offering. This platform provides a wealth of research and intelligence, and you can use it to quickly set up a campaign for advertisers to compete for your business.",
+		signup_url : "http://www.mmedia.com/",
+		logo : "img/logo_mmedia.jpg",
+		onsale : true,
+		cat : "ad",
+		name : "mMedia (Millennial Media) PluginPro",
+		desc : "Using this cordova plugin for mMedia (Millennial Media), you can easily display Banner and full screen Video Ad with single line of javascript code.",
+		ios : true,
+		android : true,
+		win : false,
+		price : 20.00,
+		github_url : "https://github.com/floatinghotpot/cordova-plugin-mmedia",
+		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XJYYFV9XFF9U4"
 	},
 	"com.rjfun.cordova.mobfox" : {
 		intro : "Looking to gain absolute control over the ads shown in your mobile app? MobFox supports more than 10,000 publishers. It features an open-source software development kit, dynamic floor pricing and real time bidding through more than 30 integrated ad networks.",
