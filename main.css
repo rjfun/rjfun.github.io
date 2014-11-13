@@ -174,7 +174,7 @@ a.active {
 .price {
 	font-size: 14px;
 	padding: 5px;
-	background-color: orange;
+	background-color: green;
 	color: white;
 }
 
@@ -190,15 +190,17 @@ a.active {
 	background-color: green;
 	color: white;
 	border-radius: 12px;
+	box-shadow:3px 3px 2px black;
+	inset: 0 0 2px black;
 }
 
 .plugin_links {
 	position: absolute;
-	right: 20px;
+	right: 25px;
 }
 
 .tiny_logo {
-	width: 32px;
-	height: 32px;
+	width: 48px;
+	height: 48px;
 }
 

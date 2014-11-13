@@ -274,7 +274,7 @@ var cordova_plugins = {
 		onsale : true,
 		cat : "media",
 		name : "iFlySpeech Plugin",
-		desc : "Cordova plugin to support mobile speech recognizer and synthesizer with iFlyTek voice cloud service.",
+		desc : "Wanna talk to your phone? Cordova plugin to support mobile speech recognizer and synthesizer with iFlyTek voice cloud service.",
 		ios : true,
 		android : true,
 		win : false,
