@@ -44,7 +44,7 @@ function list_plugin( div, products, cat, platform ) {
 		html += "</div>";
 	}
 	if(html.length == 0) {
-		html = "<p>Coming soon.</p>";
+		html = "<p style='text-align:center;'>Coming soon.</p>";
 	}
 	$("div#" + div).html( html );
 }
