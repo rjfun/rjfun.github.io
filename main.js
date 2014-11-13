@@ -81,6 +81,8 @@ function initUiEvents() {
 
 function main() {
 	initUiEvents();
+	
+	$("a#cordova").trigger('click');
 }
 
 $(document).ready(main);
