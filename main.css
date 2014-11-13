@@ -95,6 +95,12 @@ table {
 	color: silver;
 }
 
+img.logo {
+	spacing: 3px;
+	margin: 3px;
+	border: solid 1pt black;
+}
+
 .intro {
 	width: 30%;
 	display: inline-block;

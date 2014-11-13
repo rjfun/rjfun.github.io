@@ -2,7 +2,7 @@ var cordova_plugins = {
 	"com.google.cordova.admob" : {
 		intro : "One of the most impressive advertising platforms currently available, AdMob's major claim to fame is its massive base of advertisers. It is owned by Google and provides an integrated software development kit to connect over popular mobile platforms including Android, iOS and Windows Phone. AdMob has a high CPC to help you get the best ROI.",
 		signup_url : "http://www.admob.com/",
-		screen : "screen/ipad_interstitial.jpg",
+		logo : "img/logo_admob.jpg",
 		onsale : true,
 		cat : "ad",
 		name : "AdMob PluginPro",
@@ -17,6 +17,7 @@ var cordova_plugins = {
 	"com.rjfun.cordova.mmedia" : {
 		intro : "Millennial Media is known for being the first mobile ad network that went to the next level through an initial public offering. This platform provides a wealth of research and intelligence, and you can use it to quickly set up a campaign for advertisers to compete for your business.",
 		signup_url : "http://www.mmedia.com/",
+		logo : "img/logo_mmedia.jpg",
 		onsale : true,
 		cat : "ad",
 		name : "mMedia (Millennial Media) PluginPro",
@@ -30,6 +31,7 @@ var cordova_plugins = {
 	},
 	"com.rjfun.cordova.iad" : {
 		intro : "Apple's iAd service. With iAd, you can get your message out to the millions of people using iPhone and iPad.",
+		logo : "img/logo_iad.jpg",
 		onsale : true,
 		cat : "ad",
 		name : "iAd PluginPro",
@@ -44,6 +46,7 @@ var cordova_plugins = {
 	"com.rjfun.cordova.flurryads" : {
 		intro : "The team at Flurry has amassed a treasure trove of user data from more than 700 million smartphones and other mobile devices. Use it for interstitial, takeover and video ads on iOS and Android.",
 		signup_url : "http://www.flurry.com/",
+		logo : "img/logo_flurry.jpg",
 		onsale : true,
 		cat : "ad",
 		name : "FlurryAds PluginPro",
@@ -58,6 +61,7 @@ var cordova_plugins = {
 	"com.rjfun.cordova.facebookads" : {
 		intro : "Extend the same rich targeting that exists on Facebook to your app. Over 1.5 million advertisers, Get access to Facebook advertisers looking to find their audience in your app. Choose from banner, interstitial and customizable native units.",
 		signup_url : "https://developers.facebook.com/",
+		logo : "img/logo_facebookads.jpg",
 		onsale : true,
 		cat : "ad",
 		name : "FacebookAds PluginPro",
@@ -72,6 +76,7 @@ var cordova_plugins = {
 	"com.rjfun.cordova.mobfox" : {
 		intro : "Looking to gain absolute control over the ads shown in your mobile app? MobFox supports more than 10,000 publishers. It features an open-source software development kit, dynamic floor pricing and real time bidding through more than 30 integrated ad networks.",
 		signup_url : "http://www.mobfox.com/",
+		logo : "img/logo_mobfox.jpg",
 		onsale : true,
 		cat : "ad",
 		name : "MobFox PluginPro",
@@ -86,6 +91,7 @@ var cordova_plugins = {
 	"com.rjfun.cordova.mopub" : {
 		intro : "This mobile ad exchange company has momentum: Within 18 months, and with just 65 employees, it has hit a $100 million revenue run rate. It capitalized on the rise of real-time bidding, offering a transparent exchange.",
 		signup_url : "http://www.mopub.com/",
+		logo : "img/logo_mopub.jpg",
 		onsale : true,
 		cat : "ad",
 		name : "MoPub PluginPro",
@@ -126,10 +132,11 @@ var cordova_plugins = {
 		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WRT588EJ4BHJE"
 	},
 	"com.rjfun.cordova.plugin.appleiap" : {
+		logo : "img/logo_apple_iap.jpg",
 		onsale : true,
 		cat : "iap",
 		name : "Apple IAP Plugin",
-		desc : "Plugin for Apple In-App Purchase support (iOS only)",
+		desc : "In-App Purchase with Apple IAP (iOS only)",
 		ios : true,
 		android : false,
 		win : false,
@@ -138,10 +145,11 @@ var cordova_plugins = {
 		paypal_url : ""
 	},
 	"com.rjfun.cordova.plugin.paypalmpl" : {
+		logo : "img/logo_paypal.jpg",
 		onsale : true,
 		cat : "iap",
 		name : "PayPal MPL Plugin",
-		desc : "Add PayPal support with MPL SDK (Mobile Payment Library, not new SDK) to your cordova apps or games",
+		desc : "In-app Purchase with PayPal. Add PayPal support with MPL (Mobile Payment Library) SDK.",
 		ios : true,
 		android : true,
 		win : false,
@@ -150,10 +158,11 @@ var cordova_plugins = {
 		paypal_url : ""
 	},
 	"com.rjfun.cordova.plugin.lowlatencyaudio" : {
+		logo : "img/logo_audio.jpg",
 		onsale : true,
 		cat : "media",
 		name : "LowLatencyAudio Plugin",
-		desc : "Plugin to support Low Latency and Polyphonic Audio Playback on Android and iOS, must have for mobile apps/games, as HTML5 audio in mobile browsers is really poor. Also implemented same interface for HTML5 audio, useful when test in PC browser.",
+		desc : "Must have for mobile games. Plugin to support Low Latency and Polyphonic Audio Playback on Android and iOS, as HTML5 audio in mobile browsers is really poor. Also implemented same interface for HTML5 audio, useful when test in PC browser.",
 		ios : true,
 		android : true,
 		win : false,
@@ -209,7 +218,7 @@ var cordova_plugins = {
 		github_url : "https://github.com/floatinghotpot/cordova-plugin-facebook",
 		paypal_url : ""
 	},
-	"com.rjfun.cordova.plugin.twitter" : {
+	"com.rjfun.cordova.twitter" : {
 		onsale : false,
 		cat : "social",
 		name : "Twitter Plugin",
@@ -221,7 +230,7 @@ var cordova_plugins = {
 		github_url : "https://github.com/floatinghotpot/cordova-plugin-facebook",
 		paypal_url : ""
 	},
-	"com.rjfun.cordova.plugin.socialsharing" : {
+	"com.rjfun.cordova.socialsharing" : {
 		onsale : false,
 		cat : "social",
 		name : "SocialSharing Plugin",
@@ -234,10 +243,11 @@ var cordova_plugins = {
 		paypal_url : "0"
 	},
 	"com.rjfun.cordova.plugin.wifiadmin" : {
+		logo : "img/logo_wifi.jpg",
 		onsale : true,
 		cat : "network",
 		name : "Wifi Admin Plugin",
-		desc : "Cordova plugin to search and manage WiFi connections.",
+		desc : "Search and manage WiFi connections.",
 		ios : false,
 		android : true,
 		win : false,
@@ -247,6 +257,7 @@ var cordova_plugins = {
 	},
 	"com.rjfun.cordova.httpd" : {
 		intro : "Wanna develop app to enable accessing files in smartphone from remote browser? Try CorHttpd.",
+		logo : "img/logo_corhttpd.jpg",
 		onsale : true,
 		cat : "network",
 		name : "CorHttpd Plugin",
@@ -259,6 +270,7 @@ var cordova_plugins = {
 		paypal_url : ""
 	},
 	"com.rjfun.cordova.plugin.iflyspeech" : {
+		logo : "img/logo_speech.jpg",
 		onsale : true,
 		cat : "media",
 		name : "iFlySpeech Plugin",
