@@ -34,7 +34,7 @@ function list_plugin( div, products, cat, platform ) {
 			html += "</p>";
 		}
 		html += "<p class=''>";
-		if(product.logo) html += "<img src='" + product.logo + "' class='logo'/>"
+		if(product.logo) html += "<img src='" + product.logo + "' class='logo'/>";
 		for(var j in platforms_img) {
 			if(product[j] === true) {
 				html += " <img src='" + platforms_img[j] + "' class='tiny_logo'/> ";
