@@ -23,9 +23,9 @@ function list_plugin( div, products, cat, platform ) {
 		}
 		html += "</h3>";
 		if(product.price > 0) {
-			html += "<div class='plugin_links'><a class='buy_now' target='_blank' href='" + product.paypal_url + "'>Buy Now</a></div>";
+			html += "<div class='plugin_links'><a class='buy_now' target='_blank' href='" + product.paypal_url + "'><img src='img/paypal_buynow.gif' border=0></a></div>";
 		} else {
-			html += "<div class='plugin_links'><a class='buy_now' target='_blank' href='" + product.github_url + "'>Download</a></div>";
+			html += "<div class='plugin_links'><a class='download' target='_blank' href='" + product.github_url + "'>Download</a></div>";
 		}
 		if(false && product.intro) {
 			html += "<p class=''>";

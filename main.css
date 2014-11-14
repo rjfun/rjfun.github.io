@@ -109,7 +109,7 @@ img.logo {
 }
 
 .intro_more {
-	background-color: #dddddd;
+	background-color: silver;
 	padding: 10px;
 	font-size: 14px;
 }
@@ -117,7 +117,7 @@ img.logo {
 .recmd_item {
 	margin: 10px;
 	padding: 20px;
-	background-color: #eeeeee;
+	background-color: sivler;
 	text-align: right;
 	border-right: 10px solid #cccccc;
 }
@@ -182,13 +182,24 @@ a.active {
 	color: white;
 }
 
+.hot {
+	font-size: 14px;
+	padding: 5px;
+	background-color: red;
+	color: white;
+}
+
 .buy_now {
-	padding: 10px;
+	padding: 3px;
+	background-color: white;
+	color: white;
+}
+
+.download {
+	border-radius: 12px;
+	padding: 8px;
 	background-color: green;
 	color: white;
-	border-radius: 12px;
-	box-shadow:3px 3px 2px black;
-	inset: 0 0 2px black;
 }
 
 .plugin_links {
