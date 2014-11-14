@@ -171,6 +171,7 @@ var cordova_plugins = {
 		paypal_url : ""
 	},
 	"com.rjfun.cordova.plugin.sms" : {
+		logo : "img/logo_sms.jpg",
 		onsale : true,
 		cat : "system",
 		name : "SMS Plugin",
