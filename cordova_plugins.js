@@ -171,16 +171,16 @@ var cordova_plugins = {
 		paypal_url : ""
 	},
 	"com.rjfun.cordova.plugin.sms" : {
-		onsale : false,
+		onsale : true,
 		cat : "system",
 		name : "SMS Plugin",
 		desc : "Cordova plugin to send and manage SMS messages.",
 		ios : false,
 		android : true,
 		win : false,
-		price : 0,
+		price : 30.00,
 		github_url : "https://github.com/floatinghotpot/cordova-plugin-sms",
-		paypal_url : ""
+		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=86JSRPJDQUMRU"
 	},
 	"com.rjfun.cordova.plugin.bluetooth" : {
 		onsale : false,
@@ -245,7 +245,7 @@ var cordova_plugins = {
 	"com.rjfun.cordova.plugin.wifiadmin" : {
 		logo : "img/logo_wifi.jpg",
 		onsale : true,
-		cat : "network",
+		cat : "system",
 		name : "Wifi Admin Plugin",
 		desc : "Search and manage WiFi connections.",
 		ios : false,
@@ -259,7 +259,7 @@ var cordova_plugins = {
 		intro : "Wanna develop app to enable accessing files in smartphone from remote browser? Try CorHttpd.",
 		logo : "img/logo_corhttpd.jpg",
 		onsale : true,
-		cat : "network",
+		cat : "system",
 		name : "CorHttpd Plugin",
 		desc : "CorHttpd is an plugin to embed a web server into Cordova, to access local file or web content with HTTP protocol. It is used by the famous Meteor project.",
 		ios : true,
