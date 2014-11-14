@@ -170,7 +170,7 @@ var cordova_plugins = {
 		github_url : "https://github.com/floatinghotpot/cordova-plugin-lowlatencyaudio",
 		paypal_url : ""
 	},
-	"com.rjfun.cordova.plugin.sms" : {
+	"com.rjfun.cordova.sms" : {
 		logo : "img/logo_sms.jpg",
 		onsale : true,
 		cat : "system",
