@@ -41,16 +41,11 @@ table {
 }
 
 #nav_header {
-	
+	text-align: center;
 }
 
 #nav_footer {
-	width: 100%;
-	height: 30px;
-	position: absolute;
-	top: 75px;
 	text-align: center;
-	vertical-align: middle;
 }
 
 #nav_logo {
@@ -66,26 +61,27 @@ table {
 
 .nav_block {
 	display: inline-block;
-	padding: 5px;
+	padding: 3px;
 	border: 0px solid black;
 }
 
 .nav_item {
 	display: inline-block;
 	padding: 10px;
-	margin: 5px;
-	font-size: 18px;
+	margin: 3px;
+	font-size: 12px;
 	background-color: #dddddd;
 }
 
 #home_slide {
-	width: 400%;
-	height: 260px;
+	width: 100%;
+	height: 220px;
+	background-image:url(img/webpage-banner.jpg);
 }
 
 .slide {
 	width: 100%;
-	height: 260px;
+	height: 220px;
 	position: absolute;
 	display: inline-block;
 	display: inline-block;
@@ -115,6 +111,7 @@ img.logo {
 .intro_more {
 	background-color: #dddddd;
 	padding: 10px;
+	font-size: 14px;
 }
 
 .recmd_item {
