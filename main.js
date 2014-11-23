@@ -22,11 +22,13 @@ function list_plugin( div, products, cat, platform ) {
 			html += "<span class='free'>FREE</span>";
 		}
 		html += "</h3>";
+		html += "<div class='plugin_links'>";
 		if(product.price > 0) {
-			html += "<div class='plugin_links'><a class='buy_now' target='_blank' href='" + product.paypal_url + "'><img src='img/paypal_buynow.gif' border=0></a></div>";
+			html += "<a class='buy_now' target='_blank' href='" + product.paypal_url + "'><img class='buy_now' src='img/paypal_buynow.gif' border=0></a>";
 		} else {
-			html += "<div class='plugin_links'><a class='download' target='_blank' href='" + product.github_url + "'>Download</a></div>";
+			html += "<a class='download' target='_blank' href='" + product.github_url + "'>Download</a>";
 		}
+		html += "</div>";
 		if(false && product.intro) {
 			html += "<p class=''>";
 			html += product.intro;

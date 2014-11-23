@@ -25,7 +25,7 @@ var cordova_plugins = {
 		android : false,
 		win : false,
 		price : 20.00,
-		github_url : "https://github.com/floatinghotpot/cordova-plugin-iad",
+		github_url : "https://github.com/floatinghotpot/cordova-iad-pro",
 		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QHW9HFB2L8GUE"
 	},
 	"com.rjfun.cordova.flurryads" : {

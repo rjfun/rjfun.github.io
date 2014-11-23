@@ -189,10 +189,14 @@ a.active {
 	color: white;
 }
 
-.buy_now {
+a.buy_now {
 	padding: 3px;
-	background-color: white;
+	background-color: #eeeeee;
 	color: white;
+}
+
+img.buy_now {
+	vertical-align: middle;
 }
 
 .download {
