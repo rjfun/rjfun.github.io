@@ -17,7 +17,6 @@ function showAd(a) {
   var adDismiss = function(e){
     var div = d.getElementById('adpro_div');
     if(div) div.parentNode.removeChild(div);
-    e.preventDefault();
   };
   var adClicked = function(e){
     adDismiss();
