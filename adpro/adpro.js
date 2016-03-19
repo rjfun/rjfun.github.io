@@ -101,8 +101,8 @@ function prepareShowAd(a) {
   });
 }
 
-var iconUrl = 'icon.jpg';
-var coverUrl = 'cover.jpg';
+var iconUrl = 'http://rjfun.github.io/adpro/icon.jpg';
+var coverUrl = 'http://rjfun.github.io/adpro/cover.jpg';
 var adRes = {
   title: 'Musical.ly',
   body: '#1 music video community. \nMusical.ly makes it easy and fun to create amazing videos and impress your friends. Simply select a sound and start lip syncing! Anyone can be an awesome singer with musical.ly!',
