@@ -99,7 +99,7 @@ var cordova_plugins = {
 		ios : true,
 		android : true,
 		win : false,
-		price : 20.00,
+		price : 50.00,
 		github_url : "https://github.com/floatinghotpot/cordova-plugin-mopub",
 		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UQE6P4NG6NKYS"
 	},
