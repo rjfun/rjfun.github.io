@@ -14,19 +14,20 @@ var cordova_plugins = {
 		github_url : "https://github.com/floatinghotpot/cordova-admob-pro",
 		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NRKTFZ88Q9KTW"
 	},
-	"com.rjfun.cordova.iad" : {
-		intro : "Apple's iAd service. With iAd, you can get your message out to the millions of people using iPhone and iPad.",
-		logo : "img/logo_iad.jpg",
+	"com.rjfun.cordova.facebookads" : {
+		intro : "Extend the same rich targeting that exists on Facebook to your app. Over 1.5 million advertisers, Get access to Facebook advertisers looking to find their audience in your app. Choose from banner, interstitial and customizable native units.",
+		signup_url : "https://developers.facebook.com/",
+		logo : "img/logo_facebookads.jpg",
 		onsale : true,
 		cat : "ad",
-		name : "iAd PluginPro",
-		desc : "The No.1 Plugin for Apple iAd in PhoneGap Build.",
+		name : "FacebookAds PluginPro",
+		desc : "Plugin for Facebook Audience Network Ads, Banner, Interstitial and Native Ad.",
 		ios : true,
-		android : false,
+		android : true,
 		win : false,
 		price : 20.00,
-		github_url : "https://github.com/floatinghotpot/cordova-iad-pro",
-		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QHW9HFB2L8GUE"
+		github_url : "https://github.com/floatinghotpot/cordova-plugin-facebookads",
+		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H3EYC4JZNSRRS"
 	},
 	"com.rjfun.cordova.flurryads" : {
 		intro : "The team at Flurry has amassed a treasure trove of user data from more than 700 million smartphones and other mobile devices. Use it for interstitial, takeover and video ads on iOS and Android.",
@@ -42,21 +43,6 @@ var cordova_plugins = {
 		price : 20.00,
 		github_url : "https://github.com/floatinghotpot/cordova-plugin-flurry",
 		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=C654HGZVC43T4"
-	},
-	"com.rjfun.cordova.facebookads" : {
-		intro : "Extend the same rich targeting that exists on Facebook to your app. Over 1.5 million advertisers, Get access to Facebook advertisers looking to find their audience in your app. Choose from banner, interstitial and customizable native units.",
-		signup_url : "https://developers.facebook.com/",
-		logo : "img/logo_facebookads.jpg",
-		onsale : true,
-		cat : "ad",
-		name : "FacebookAds PluginPro",
-		desc : "Plugin for Facebook Audience Network Ads, Banner, Interstitial and Native Ad.",
-		ios : true,
-		android : true,
-		win : false,
-		price : 20.00,
-		github_url : "https://github.com/floatinghotpot/cordova-plugin-facebookads",
-		paypal_url : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H3EYC4JZNSRRS"
 	},
 	"com.rjfun.cordova.mmedia" : {
 		intro : "Millennial Media is known for being the first mobile ad network that went to the next level through an initial public offering. This platform provides a wealth of research and intelligence, and you can use it to quickly set up a campaign for advertisers to compete for your business.",
