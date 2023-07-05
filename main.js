@@ -62,10 +62,10 @@ function initUiEvents() {
 		
 		if(page === 'plugin_page') {
 			var id = $(this).attr('id');
-			if(id === 'cordova') selected_plugins = cordova_plugins;
-			else if(id === 'coco2dx') select_plugins = cocos2dx_plugins;
-			else if(id === 'unity') selected_plugins = unity_plugins;
-			else selected_plugins = {};
+			//if(id === 'cordova') selected_plugins = cordova_plugins;
+			//else if(id === 'coco2dx') select_plugins = cocos2dx_plugins;
+			//else if(id === 'unity') selected_plugins = unity_plugins;
+			//else selected_plugins = {};
 			
 			$('a.plugin_cat').removeClass('active');
 			list_plugin('plugin_list', selected_plugins, "all");
